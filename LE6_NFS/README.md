@@ -51,7 +51,7 @@ systemctl enable rpcbind nfs-server firewalld
 systemctl start rpcbind nfs-server firewalld
 ```
 
-С сервера же 
+На клиенте почти также 
 ```bash
 
 mkdir -p ~root/.ssh
