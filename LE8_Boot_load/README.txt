@@ -17,7 +17,7 @@ GRUB_TIMEOUT=10
 
 Способ 1. init=/bin/sh
 
-![1](https://github.com/VikViktori/OTUS/raw/master/LE8_Boot_load/screen/1.png)
+![1](screen/1.png)
 
 В конце строки добавляем init=/bin/sh и нажимаем сtrl-x для загрузки в систему (строка начинается с inux16)
 
@@ -31,7 +31,7 @@ GRUB_TIMEOUT=10
 
 Проверяем созданием файла, смонтировался ли root:
 
-![3](https://github.com/VikViktori/OTUS/raw/master/LE8_Boot_load/screen/3.png)
+![3](screen/3.png)
 
 Способ 2. recovery
 
@@ -41,7 +41,7 @@ GRUB_TIMEOUT=10
 Далее выбираем пункт root и попадаем в консоль с пользователем root. Если вы ранее устанавливали пароль для пользователя root (по умолчанию его нет), то необходимо его ввести. 
 В этой консоли можно производить любые манипуляции с системой.
 
-![2](https://github.com/VikViktori/OTUS/raw/master/LE8_Boot_load/screen/2.png)
+![2](screen/2.png)
 
 Смотрим текущее состояние,затем переименовываем 
 
@@ -53,4 +53,4 @@ GRUB_TIMEOUT=10
 Далее правим /boot/grub/grub.cfg. Везде заменяем старое название VG на новое (в файле дефис меняется на два дефиса ubuntu--vg ubuntu--otus).
 После чего можем перезагружаться и, если все сделано правильно, успешно грузимся с новым именем Volume Group и проверяем:
 Иначе
-![4](https://github.com/VikViktori/OTUS/raw/master/LE8_Boot_load/screen/4.png)
+![4](screen/4.png)
