@@ -17,7 +17,7 @@ GRUB_TIMEOUT=10
 
 Способ 1. init=/bin/sh
 
-![1](LE8_Boot_load/screen/1.png)
+![image-1](screen/1.png)
 
 В конце строки добавляем init=/bin/sh и нажимаем сtrl-x для загрузки в систему (строка начинается с inux16)
 
