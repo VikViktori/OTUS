@@ -1,0 +1,11 @@
+[Unit]
+Description=Find Monday service
+
+[Service]
+Type=simple
+PIDFile=/var/run/watcher.pid
+EnvironmentFile=/etc/default/watcher.conf
+ExecStart=/opt/watcher.sh $KEYWORD $FILE
+
+[Install]
+ WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Find Monday every 30 second
+[Timer]
+OnUnitActiveSec=30
+AccuracySec=1us
+Unit=watcher.service
+
+[Install]
+WantedBy=multi-user.target
